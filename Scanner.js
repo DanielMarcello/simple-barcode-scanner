@@ -85,7 +85,7 @@ class Scanner extends Component {
                   style={styles.inputText}
                   onChangeText={text => this.setState({ TextInput: text })}
                   value={this.state.text}
-                  placeholder="Type list code here..."
+                  placeholder="Escribe el código de lista..."
                   editable={this.state.enabledInput}
                 />
                 <TouchableHighlight
